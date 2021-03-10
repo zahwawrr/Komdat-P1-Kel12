@@ -108,13 +108,13 @@ $ sudo ufw allow 7777
 * **Server siap digunakan**
 * ![Screenshot from 2021-02-12 01-31-00](https://user-images.githubusercontent.com/60166539/110609050-6a794080-81bf-11eb-9884-8c598ba4bc32.png)
 
-### Konfigurasi
+## Konfigurasi
 
-### Maintenance
+## Maintenance
 
-### Otomatisasi
+## Otomatisasi
 
-### Cara Pemakaian
+## Cara Pemakaian
 1. Login pada halaman admin server OpenFire.
   * Kolom **Username** diisikan dengan **Admin**
   * Kolom **Password** diisikan dengan kata sandi yang telah dibuat pada proses instalasi.
