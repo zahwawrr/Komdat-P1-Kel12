@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="400" src="https://chatsdk.co/wp-content/uploads/2017/12/openfire-1.png">
+  <img width="300" src="https://chatsdk.co/wp-content/uploads/2017/12/openfire-1.png">
 </p>
 
 [Tentang](#Tentang) | [Instalasi](#Instalasi) | [Konfigurasi](#Konfigurasi) | [Maintenance](#Maintenance) | [Otomatisasi](#otomatisasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
