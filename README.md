@@ -154,11 +154,11 @@ StartupNotify=true
 Icon=/opt/spark/spark.png/fFLQ0.png
 EnvironmentObjective=Gnome
 ```
-7.8 Jalankan aplikasi dari direktori ```/opt/spark/```
+* Jalankan aplikasi dari direktori ```/opt/spark/```
 ```
 $ ./Spark
 ```
-7.9 Instalasi selesai dan aplikasi dapat dijalankan, gunakan akun yang telah dibuat pada OpenFire untuk login
+* Instalasi selesai dan aplikasi dapat dijalankan, gunakan akun yang telah dibuat pada OpenFire untuk login
 
 ## Konfigurasi
 Terdapat banyak konfigurasi yang dapat dilakukan pada server OpenFire.
