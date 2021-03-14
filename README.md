@@ -1,4 +1,6 @@
-![openfire-1](https://user-images.githubusercontent.com/60083962/111074355-2666a280-8515-11eb-8b61-6dd9403205fb.png)
+<p align="center">
+  ![openfire-1](https://user-images.githubusercontent.com/60083962/111074355-2666a280-8515-11eb-8b61-6dd9403205fb.png)
+</p>
 
 [Tentang](#Tentang) | [Instalasi](#Instalasi) | [Konfigurasi](#Konfigurasi) | [Maintenance](#Maintenance) | [Otomatisasi](#otomatisasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
 :---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:
