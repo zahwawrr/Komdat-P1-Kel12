@@ -22,70 +22,70 @@
 ### Proses Instalasi:
 #### 1. Instalasi Kebutuhan Sistem
 * Pastikan seluruh paket sistem adalah versi yang terbaru
-```
-$ sudo apt  update
-```
+  ```
+  $ sudo apt  update
+  ```
 * Install MySQL dan pastikan sudah terinstall
-```
-$ sudo apt install mysql-server
-$ mysql --version
-```
+  ```
+  $ sudo apt install mysql-server
+  $ mysql --version
+  ```
 * Jika MySQL sudah terinstall, selanjutnya install Apache dan pastikan sudah terinstall
-```
-$ sudo apt install apache2
-$ sudo systemctl status apache2
-```
+  ```
+  $ sudo apt install apache2
+  $ sudo systemctl status apache2
+  ```
 * Jika Apache sudah terinstall, selanjutnya install OpenJDK dan pastikan sudah terinstall
-```
-$ sudo apt install openjdk-8-jdk -y
-$ java -version
-```
+  ```
+  $ sudo apt install openjdk-8-jdk -y
+  $ java -version
+  ```
 #### 2. Pembuatan database untuk OpenFire
-```
-$ sudo mysql -uroot -p
-  create database openfiredb;
-  create user openfireuser@localhost identified by 'OpenFirePWD';
-  grant all on openfiredb.* to openfireuser@localhost;
-  flush privileges;
-  exit;
-```
+  ```
+  $ sudo mysql -uroot -p
+    create database openfiredb;
+    create user openfireuser@localhost identified by 'OpenFirePWD';
+    grant all on openfiredb.* to openfireuser@localhost;
+    flush privileges;
+    exit;
+  ```
 #### 3. Unduh dan Install OpenFire
 * Pindah ke direktori ```/opt``` kemudian unduh OpenFire dan pastikan OpenFire sudah terunduh
-```
-$ cd /opt
-$ sudo wget https://www.igniterealtime.org/downloadServlet?filename=openfire/openfire_4.6.0_all.deb
-$ ll
-```
+  ```
+  $ cd /opt
+  $ sudo wget https://www.igniterealtime.org/downloadServlet?filename=openfire/openfire_4.6.0_all.deb
+  $ ll
+  ```
 * Install OpenFire dari official websitenya
-```
-$ sudo apt install ./downloadServlet?filename=openfire/openfire_4.6.0_all.deb
-```
+  ```
+  $ sudo apt install ./downloadServlet?filename=openfire/openfire_4.6.0_all.deb
+  ```
 * Mulai dan aktifkan OpenFire service, kemudian pastikan OpenFire sudah aktif
-```
-$ sudo systemctl start openfire
-$ sudo systemctl enable openfire
-$ sudo systemctl status openfire
-```
+  ```
+  $ sudo systemctl start openfire
+  $ sudo systemctl enable openfire
+  $ sudo systemctl status openfire
+  ```
 #### 4. Import skema database OpenFire
 * Login ke MySQL server menggunakan ```openfireuser``` sebagai user-nya
-```
-$ sudo mysql -uopenfireuser -popenfirePWD
-```
+  ```
+  $ sudo mysql -uopenfireuser -popenfirePWD
+  ```
 * Pindah ke database ```openfiredb``` yang telah dibuat sebelumnya, kemudian import skema database OpenFire. Setelah itu verifikasi bahwa skema telah ter-*import*
-```
-use openfiredb;
-source /usr/share/openfire/resources/database/openfire_mysql.sql;
-show tables;
-exit;
-```
+  ```
+  use openfiredb;
+  source /usr/share/openfire/resources/database/openfire_mysql.sql;
+  show tables;
+  exit;
+  ```
 #### 5. Konfigurasi Firewall jika terdapat Firewall pada sistem
 * Allow port 9090, 9091, 5222, 7777 pada Firewall
-```
-$ sudo ufw allow 9090
-$ sudo ufw allow 9091
-$ sudo ufw allow 5222
-$ sudo ufw allow 7777
-```
+  ```
+  $ sudo ufw allow 9090
+  $ sudo ufw allow 9091
+  $ sudo ufw allow 5222
+  $ sudo ufw allow 7777
+  ```
 #### 6. Kunjungi alamat IP web server untuk langkah instalasi selanjutnya
 OpenFire secara default berjalan pada port 9090, hubungkan server local dengan port 9090 pada browser ```localhost:9090/setup/index.jsp```
 * **Pengaturan bahasa**
@@ -112,52 +112,51 @@ OpenFire secara default berjalan pada port 9090, hubungkan server local dengan p
 #### 7. Instalasi Spark
 Agar client dapat terhubung ke Openfire, maka dibutuhkan software client Spark untuk di install pada sistem. 
 * Pastikan pada sistem telah terinstall Java, jika belum install terlebih dahulu
-```
-$ sudo apt install default-jre
-```
+  ```
+  $ sudo apt install default-jre
+  ```
 * Jika Java sudah terinstall, selanjutnya download Spark versi terbaru
-```
-$ wget – O Spark_2_9_4.tar.gz http://igniterealtime.org downloadServlet?filename=spark/spark_2_9_4.tar.gz
-```
+  ```
+  $ wget – O Spark_2_9_4.tar.gz http://igniterealtime.org downloadServlet?filename=spark/spark_2_9_4.tar.gz
+  ```
 * File Spark yang telah terunduh dapat dilihat pada direktori home. Jalankan perintah ```/opt``` untuk mengekstrak file di direktori tersebut
-```
-$ sudo tar -zxvf Spark_2_9_4.tar.gz -C /opt/
-```
+  ```
+  $ sudo tar -zxvf Spark_2_9_4.tar.gz -C /opt/
+  ```
 * Pindahkan file dari folder "Spark" ke folder baru "spark"
-```
-$ sudo mv /opt/Spark /opt/spark
-```
+  ```
+  $ sudo mv /opt/Spark /opt/spark
+  ```
 * Ubah direktori
-```
-$ cd /opt/Spark
-```
+  ```
+  $ cd /opt/Spark
+  ```
 * Buka terminal text editor dan buat file dengan nama ```spark.desktop``` pada direktori ```/usr/share/apps```
-```
-$ sudo nano /usr/share/applications/spark.desktop
-```
+  ```
+  $ sudo nano /usr/share/applications/spark.desktop
+  ```
 * Salin teks ke editor GNU Nano
-```
+  ```
+  [Desktop Entry]
 
-[Desktop Entry]
-
-Name=Spark
-Version=2.8.2.2 Version=2.8.2.2
-GenericName=Spark Spark
-X-GNOME-FullName=Spark
-Comment=ignite realtime Spark IM client
-Type=Application
-Categories=Application;Utility;
-Path=/opt/spark
-Exec=/bin/bash Spark
-Terminal= false
-StartupNotify=true
-Icon=/opt/spark/spark.png/fFLQ0.png
-EnvironmentObjective=Gnome
-```
+  Name=Spark
+  Version=2.8.2.2 Version=2.8.2.2
+  GenericName=Spark Spark
+  X-GNOME-FullName=Spark
+  Comment=ignite realtime Spark IM client
+  Type=Application
+  Categories=Application;Utility;
+  Path=/opt/spark
+  Exec=/bin/bash Spark
+  Terminal= false
+  StartupNotify=true
+  Icon=/opt/spark/spark.png/fFLQ0.png
+  EnvironmentObjective=Gnome
+  ```
 * Jalankan aplikasi dari direktori ```/opt/spark/```
-```
-$ ./Spark
-```
+  ```
+  $ ./Spark
+  ```
 * Instalasi selesai dan aplikasi dapat dijalankan, gunakan akun yang telah dibuat pada OpenFire untuk login
 
 ## Konfigurasi
@@ -184,12 +183,12 @@ Jika pilihan konfigurasi tidak disediakan oleh OpenFire, maka admin dapat menamb
 ## Otomatisasi
 
 ## Cara Pemakaian
-### 1. Login pada halaman admin server OpenFire.
+#### 1. Login pada halaman admin server OpenFire.
   * Kolom **Username** diisikan dengan **Admin**
   * Kolom **Password** diisikan dengan kata sandi yang telah dibuat pada proses instalasi.
 ![Screenshot from 2021-02-12 01-31-32](https://user-images.githubusercontent.com/60166539/110609354-b6c48080-81bf-11eb-97cd-d8ff37592375.png)
 
-### 2. Create user pada OpenFire 
+#### 2. Create user pada OpenFire 
   * Pilih bagian **Users/Groups**
 
 ## Referensi
