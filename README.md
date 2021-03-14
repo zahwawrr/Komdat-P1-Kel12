@@ -7,9 +7,13 @@
 :---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:
 
 ## Sekilas Tentang
+[`^ kembali ke atas ^`](#)
+
 **Openfire** merupakan sebuah server *Real Time Collaboration* (RTC) yang berlisensi Open Source Apache. Aplikasi ini bersifat *open protocol* (dapat digunakan semua orang secara gratis dan bebas) untuk mengirimkan pesan instan. Aplikasi berjenis *Extensible Messaging and Presence Protocol* (XMPP) ini sangat mudah untuk di-*install* dan digunakan, namun dapat memberikan layanan keamanan dan performa yang baik.
 
 ## Instalasi
+[`^ kembali ke atas ^`](#)
+
 ### **Kebutuhan Sistem**:
 **Software**
 - Database dengan JDBC driver, atau embedded pure Java database
@@ -166,6 +170,8 @@ Agar client dapat terhubung ke Openfire, maka dibutuhkan software client Spark u
 * Instalasi selesai dan aplikasi dapat dijalankan, gunakan akun yang telah dibuat pada OpenFire untuk login
 
 ## Konfigurasi
+[`^ kembali ke atas ^`](#)
+
 Terdapat banyak konfigurasi yang dapat dilakukan pada server OpenFire.
 ![Screenshot from 2021-03-14 14-10-25](https://user-images.githubusercontent.com/60166539/111061697-411a2680-84d7-11eb-8707-1a83923028f2.png)
 
@@ -185,6 +191,8 @@ Jika pilihan konfigurasi tidak disediakan oleh OpenFire, maka admin dapat menamb
   ![Screenshot from 2021-03-14 14-05-30](https://user-images.githubusercontent.com/60166539/111063617-4a5cc080-84e2-11eb-91f5-749c6fcd5334.png)
   
 ## Maintenance
+[`^ kembali ke atas ^`](#)
+
 Setting tambahan untuk maintenance secara periodik, misalnya:
 
 - buat backup database tiap pekan
@@ -192,9 +200,13 @@ Setting tambahan untuk maintenance secara periodik, misalnya:
 - dll
 
 ## Otomatisasi
+[`^ kembali ke atas ^`](#)
+
 Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
 
 ## Cara Pemakaian
+[`^ kembali ke atas ^`](#)
+
 #### 1. Login pada halaman admin server OpenFire.
   * Kolom **Username** diisikan dengan **Admin**
   * Kolom **Password** diisikan dengan kata sandi yang telah dibuat pada proses instalasi.
@@ -216,12 +228,16 @@ Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
     ![spark3](https://user-images.githubusercontent.com/60083962/111076303-60887200-851e-11eb-915c-97d58f209d94.PNG)
     
 ## Pembahasan
+[`^ kembali ke atas ^`](#)
+
   * Pendapat anda tentang aplikasi web ini
     * kelebihan
     * kekurangan
   * Bandingkan dengan aplikasi web lain yang sejenis
 
 ## Referensi
+[`^ kembali ke atas ^`](#)
+
 [How To Install OpenFire Chat on Ubuntu 20 19 18 LTS](https://www.youtube.com/watch?v=Ph0UWgKUruY)
 
 [How to Install Spark IM 2.9.4 – Instant Messaging Client on Linux](https://linuxhint.com/spark-im-client-2-8-2-messaging-linux/)
