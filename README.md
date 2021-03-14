@@ -198,6 +198,8 @@ Jika pilihan konfigurasi tidak disediakan oleh OpenFire, maka admin dapat menamb
   * Pilih bagian **Users/Groups**, lalu klik **Create New User**
     ![cara pemakaian 1](https://user-images.githubusercontent.com/60083962/111075022-8b6fc780-8518-11eb-9abf-f5b6c6108526.PNG)
   * Kita dapat menambahkan lebih dari 1 user sesuai dengan kebutuhan
+    ![carapemakaian3](https://user-images.githubusercontent.com/60083962/111075161-46986080-8519-11eb-9460-ff03f1331dbb.PNG)
+    ![carapemakaian4](https://user-images.githubusercontent.com/60083962/111075164-4ef09b80-8519-11eb-9c7a-e467f30ecfa0.PNG)
 
 ## Pembahasan
 
