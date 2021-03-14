@@ -21,21 +21,21 @@
 
 ### Proses Instalasi:
 #### 1. Instalasi Kebutuhan Sistem
-1.1. Pastikan seluruh paket sistem adalah versi yang terbaru
+* Pastikan seluruh paket sistem adalah versi yang terbaru
 ```
 $ sudo apt  update
 ```
-1.2. Install MySQL dan pastikan sudah terinstall
+* Install MySQL dan pastikan sudah terinstall
 ```
 $ sudo apt install mysql-server
 $ mysql --version
 ```
-1.3. Jika MySQL sudah terinstall, selanjutnya install Apache dan pastikan sudah terinstall
+* Jika MySQL sudah terinstall, selanjutnya install Apache dan pastikan sudah terinstall
 ```
 $ sudo apt install apache2
 $ sudo systemctl status apache2
 ```
-1.4. Jika Apache sudah terinstall, selanjutnya install OpenJDK dan pastikan sudah terinstall
+* Jika Apache sudah terinstall, selanjutnya install OpenJDK dan pastikan sudah terinstall
 ```
 $ sudo apt install openjdk-8-jdk -y
 $ java -version
@@ -50,28 +50,28 @@ $ sudo mysql -uroot -p
   exit;
 ```
 #### 3. Unduh dan Install OpenFire
-3.1. Pindah ke direktori ```/opt``` kemudian unduh OpenFire dan pastikan OpenFire sudah terunduh
+* Pindah ke direktori ```/opt``` kemudian unduh OpenFire dan pastikan OpenFire sudah terunduh
 ```
 $ cd /opt
 $ sudo wget https://www.igniterealtime.org/downloadServlet?filename=openfire/openfire_4.6.0_all.deb
 $ ll
 ```
-3.2. Install OpenFire dari official websitenya
+* Install OpenFire dari official websitenya
 ```
 $ sudo apt install ./downloadServlet?filename=openfire/openfire_4.6.0_all.deb
 ```
-3.3. Mulai dan aktifkan OpenFire service, kemudian pastikan OpenFire sudah aktif
+* Mulai dan aktifkan OpenFire service, kemudian pastikan OpenFire sudah aktif
 ```
 $ sudo systemctl start openfire
 $ sudo systemctl enable openfire
 $ sudo systemctl status openfire
 ```
 #### 4. Import skema database OpenFire
-4.1. Login ke MySQL server menggunakan ```openfireuser``` sebagai user-nya
+* Login ke MySQL server menggunakan ```openfireuser``` sebagai user-nya
 ```
 $ sudo mysql -uopenfireuser -popenfirePWD
 ```
-4.2. Pindah ke database ```openfiredb``` yang telah dibuat sebelumnya, kemudian import skema database OpenFire. Setelah itu verifikasi bahwa skema telah ter-*import*
+* Pindah ke database ```openfiredb``` yang telah dibuat sebelumnya, kemudian import skema database OpenFire. Setelah itu verifikasi bahwa skema telah ter-*import*
 ```
 use openfiredb;
 source /usr/share/openfire/resources/database/openfire_mysql.sql;
@@ -79,7 +79,7 @@ show tables;
 exit;
 ```
 #### 5. Konfigurasi Firewall jika terdapat Firewall pada sistem
-5.1. Allow port 9090, 9091, 5222, 7777 pada Firewall
+* Allow port 9090, 9091, 5222, 7777 pada Firewall
 ```
 $ sudo ufw allow 9090
 $ sudo ufw allow 9091
@@ -111,31 +111,31 @@ OpenFire secara default berjalan pada port 9090, hubungkan server local dengan p
 
 #### 7. Instalasi Spark
 Agar client dapat terhubung ke Openfire, maka dibutuhkan software client Spark untuk di install pada sistem. 
-7.1. Pastikan pada sistem telah terinstall Java, jika belum install terlebih dahulu
+* Pastikan pada sistem telah terinstall Java, jika belum install terlebih dahulu
 ```
 $ sudo apt install default-jre
 ```
-7.2 Jika Java sudah terinstall, selanjutnya download Spark versi terbaru
+* Jika Java sudah terinstall, selanjutnya download Spark versi terbaru
 ```
 $ wget – O Spark_2_9_4.tar.gz http://igniterealtime.org downloadServlet?filename=spark/spark_2_9_4.tar.gz
 ```
-7.3 File Spark yang telah terunduh dapat dilihat pada direktori home. Jalankan perintah ```/opt``` untuk mengekstrak file di direktori tersebut
+* File Spark yang telah terunduh dapat dilihat pada direktori home. Jalankan perintah ```/opt``` untuk mengekstrak file di direktori tersebut
 ```
 $ sudo tar -zxvf Spark_2_9_4.tar.gz -C /opt/
 ```
-7.4 Pindahkan file dari folder "Spark" ke folder baru "spark"
+* Pindahkan file dari folder "Spark" ke folder baru "spark"
 ```
 $ sudo mv /opt/Spark /opt/spark
 ```
-7.5 Ubah direktori
+* Ubah direktori
 ```
 $ cd /opt/Spark
 ```
-7.6 Buka terminal text editor dan buat file dengan nama ```spark.desktop``` pada direktori ```/usr/share/apps```
+* Buka terminal text editor dan buat file dengan nama ```spark.desktop``` pada direktori ```/usr/share/apps```
 ```
 $ sudo nano /usr/share/applications/spark.desktop
 ```
-7.7 Salin teks ke editor GNU Nano
+* Salin teks ke editor GNU Nano
 ```
 
 [Desktop Entry]
