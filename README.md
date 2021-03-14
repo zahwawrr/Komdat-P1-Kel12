@@ -1,5 +1,5 @@
-# Komdat-P1-Kel12
 ![openfire-1](https://user-images.githubusercontent.com/60083962/111074355-2666a280-8515-11eb-8b61-6dd9403205fb.png)
+
 [Tentang](#Tentang) | [Instalasi](#Instalasi) | [Konfigurasi](#Konfigurasi) | [Maintenance](#Maintenance) | [Otomatisasi](#otomatisasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
 :---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:
 
