@@ -99,7 +99,7 @@ OpenFire secara default berjalan pada port 9090, hubungkan server local dengan p
   * Kolom **Username** dan **Password** diisi sesuai dengan database yang dibuat saat instalasi.
   * **Minimum Connections**, **Maximum Connections** dan **Connection Timeout** dapat dibiarkan *default* atau diatur sesuai dengan kebutuhan.
 ![Screenshot from 2021-02-12 01-29-08](https://user-images.githubusercontent.com/60166539/110608117-7e707280-81be-11eb-99f7-2f8fc3b2d923.png)
-* P**engaturan profile**
+* **Pengaturan profile**
   * Pilih sistem ***user*** dan ***group*** sesuai dengan kebutuhan. Pada instalasi kali ini, dibiarkan *default*.
 ![Screenshot from 2021-02-12 01-29-26](https://user-images.githubusercontent.com/60166539/110608343-bd062d00-81be-11eb-961c-488b6bf596be.png)
 * **Pengaturan akun admin**
@@ -159,8 +159,26 @@ EnvironmentObjective=Gnome
 $ ./Spark
 ```
 7.9 Instalasi selesai dan aplikasi dapat dijalankan, gunakan akun yang telah dibuat pada OpenFire untuk login
-## Konfigurasi
 
+## Konfigurasi
+Terdapat banyak konfigurasi yang dapat dilakukan pada server OpenFire.
+![Screenshot from 2021-03-14 14-10-25](https://user-images.githubusercontent.com/60166539/111061697-411a2680-84d7-11eb-8707-1a83923028f2.png)
+
+Beberapa pilihan konfigurasi yang disediakan oleh OpenFire adalah sebagai berikut:
+
+**1. Registration Settings**
+  ![Screenshot from 2021-03-14 14-11-48](https://user-images.githubusercontent.com/60166539/111063947-ff43ad00-84e3-11eb-971c-cbd9123a8d55.png)
+  Pada pilihan ini, admin dapat mengizinkan *user* untuk **membuat akun sendiri, mengganti password, *login* menggunakan akun anonim, *login* dari server lain selain server lokal, dan mengatur mekanisme SASL.**
+  
+**2. Offline Messages**
+  ![Screenshot from 2021-03-14 14-14-02](https://user-images.githubusercontent.com/60166539/111064218-56964d00-84e5-11eb-8fe4-0d0ef126a040.png)
+  Pada pilihan ini, OpenFire memberikan layanan untuk menyimpan pesan yang dikirim dari pengguna yang sedang *online* ke pengguna lainnya yang sedang *offline*. Pesan yang disimpan tersebut tentunya akan memakan memori penyimpanan, maka dari itu disediakan konfigurasinya. Admin dapat melakukan konfigurasi **sifat penyimpanan pesan *offline*, kapasitas penyimpanan pesan *offline* per-*user*, pembersihan pesan *offline*, seberapa lama pesan *offline* tersebut akan disimpan dan seberapa lama pesan *offline* tersebut dapat di-*retrieve***
+  
+**3. Plugin** <br/>
+Jika pilihan konfigurasi tidak disediakan oleh OpenFire, maka admin dapat menambahkan *plugin* sesuai dengan kebutuhan perusahaan. Contohnya **Monitoring Service** untuk mengetahui statistik dan arsip dari chat yang terjadi.
+  ![Screenshot from 2021-03-14 11-35-03](https://user-images.githubusercontent.com/60166539/111063615-46c93980-84e2-11eb-990b-eef171bfa443.png)
+  ![Screenshot from 2021-03-14 14-05-30](https://user-images.githubusercontent.com/60166539/111063617-4a5cc080-84e2-11eb-91f5-749c6fcd5334.png)
+  
 ## Maintenance
 
 ## Otomatisasi
