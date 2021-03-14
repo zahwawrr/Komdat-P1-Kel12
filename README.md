@@ -172,11 +172,11 @@ Terdapat banyak konfigurasi yang dapat dilakukan pada server OpenFire.
 Beberapa pilihan konfigurasi yang disediakan oleh OpenFire adalah sebagai berikut:
 
 **1. Registration Settings**
-    ![Screenshot from 2021-03-14 14-11-48](https://user-images.githubusercontent.com/60166539/111063947-ff43ad00-84e3-11eb-971c-cbd9123a8d55.png)
+  ![Screenshot from 2021-03-14 14-11-48](https://user-images.githubusercontent.com/60166539/111063947-ff43ad00-84e3-11eb-971c-cbd9123a8d55.png)
   Pada pilihan ini, admin dapat mengizinkan *user* untuk **membuat akun sendiri, mengganti password, *login* menggunakan akun anonim, *login* dari server lain selain server lokal, dan mengatur mekanisme SASL.**
   
 **2. Offline Messages**
-    ![Screenshot from 2021-03-14 14-14-02](https://user-images.githubusercontent.com/60166539/111064218-56964d00-84e5-11eb-8fe4-0d0ef126a040.png)
+  ![Screenshot from 2021-03-14 14-14-02](https://user-images.githubusercontent.com/60166539/111064218-56964d00-84e5-11eb-8fe4-0d0ef126a040.png)
   Pada pilihan ini, OpenFire memberikan layanan untuk menyimpan pesan yang dikirim dari pengguna yang sedang *online* ke pengguna lainnya yang sedang *offline*. Pesan yang disimpan tersebut tentunya akan memakan memori penyimpanan, maka dari itu disediakan konfigurasinya. Admin dapat melakukan konfigurasi **sifat penyimpanan pesan *offline*, kapasitas penyimpanan pesan *offline* per-*user*, pembersihan pesan *offline*, seberapa lama pesan *offline* tersebut akan disimpan dan seberapa lama pesan *offline* tersebut dapat di-*retrieve***
   
 **3. Plugin** <br/>
@@ -195,7 +195,8 @@ Jika pilihan konfigurasi tidak disediakan oleh OpenFire, maka admin dapat menamb
 ![Screenshot from 2021-02-12 01-31-32](https://user-images.githubusercontent.com/60166539/110609354-b6c48080-81bf-11eb-97cd-d8ff37592375.png)
 
 #### 2. Create user pada OpenFire 
-  * Pilih bagian **Users/Groups**
+  * Pilih bagian **Users/Groups**, lalu klik **Create New User**
+  * Kita dapat menambahkan lebih dari 1 user sesuai dengan kebutuhan
 
 ## Pembahasan
 
