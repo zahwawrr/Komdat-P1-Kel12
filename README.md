@@ -185,8 +185,14 @@ Jika pilihan konfigurasi tidak disediakan oleh OpenFire, maka admin dapat menamb
   ![Screenshot from 2021-03-14 14-05-30](https://user-images.githubusercontent.com/60166539/111063617-4a5cc080-84e2-11eb-91f5-749c6fcd5334.png)
   
 ## Maintenance
+Setting tambahan untuk maintenance secara periodik, misalnya:
+
+buat backup database tiap pekan
+hapus direktori sampah tiap hari
+dll
 
 ## Otomatisasi
+Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
 
 ## Cara Pemakaian
 #### 1. Login pada halaman admin server OpenFire.
