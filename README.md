@@ -225,8 +225,17 @@ Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
     ![spark1FIX](https://user-images.githubusercontent.com/60083962/111076243-1b644000-851e-11eb-8dfe-c4e82bd5592b.PNG)
   * Pada opsi **Advanced**, masukkan alamat domain Openfire, dan tinggalkan port nya default
     ![spark2](https://user-images.githubusercontent.com/60083962/111076248-1f905d80-851e-11eb-8cbf-6d088970636a.PNG)
-  * Klik Login
+  * Klik login dan login pun berhasil dilakukan
     ![spark3](https://user-images.githubusercontent.com/60083962/111076303-60887200-851e-11eb-915c-97d58f209d94.PNG)
+
+#### 4. Komunikasi chat dengan client lain
+  * Supaya antar client dapat berkomunikasi, kita perlu menambahkan kontak dari client lain yang dibuat di Openfire
+    ![spark_addcontact1](https://user-images.githubusercontent.com/60083962/111078228-0213c180-8527-11eb-85a8-fa46f71c59f6.PNG)
+  * Isi username Client lain. Disini saya akan menambahkan kontak client zahwa, lalu pilih group nya dan terakhir klik Add
+    ![spark_addcontact2ZAHWA](https://user-images.githubusercontent.com/60083962/111078230-03dd8500-8527-11eb-8027-b636799b8949.PNG)
+  * Setelah itu Client Zahwa akan mendapat notifikasi permintaan pertemanan oleh Hana seperi berikut. Jika Client Zahwa memilih accept, maka Client Hana juga akan menerima notifikasi permintaan pertemanan seperti Client Zahwa.
+  * Setelah saling menerima permintaan pertemanan, kedua user akan memiliki kontak satu sama lain. Untuk memulai Chat, klik kanan pada nama kontak yang ingin diajak chat,lalu klik start Chat
+  * Lalu setelah keduanya memasuki room chat, chatting sudah dapat dilakukan.
     
 ## Pembahasan
 [`^ kembali ke atas ^`](#)
