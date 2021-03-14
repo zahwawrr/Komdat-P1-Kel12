@@ -210,6 +210,10 @@ Jika pilihan konfigurasi tidak disediakan oleh OpenFire, maka admin dapat menamb
     ![spark3](https://user-images.githubusercontent.com/60083962/111076303-60887200-851e-11eb-915c-97d58f209d94.PNG)
     
 ## Pembahasan
+  * Pendapat anda tentang aplikasi web ini
+    * kelebihan
+    * kekurangan
+  * Bandingkan dengan aplikasi web lain yang sejenis
 
 ## Referensi
 [How To Install OpenFire Chat on Ubuntu 20 19 18 LTS](https://www.youtube.com/watch?v=Ph0UWgKUruY)
