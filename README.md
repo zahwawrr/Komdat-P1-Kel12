@@ -187,9 +187,9 @@ Jika pilihan konfigurasi tidak disediakan oleh OpenFire, maka admin dapat menamb
 ## Maintenance
 Setting tambahan untuk maintenance secara periodik, misalnya:
 
-buat backup database tiap pekan
-hapus direktori sampah tiap hari
-dll
+- buat backup database tiap pekan
+- hapus direktori sampah tiap hari
+- dll
 
 ## Otomatisasi
 Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
