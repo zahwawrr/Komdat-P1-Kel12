@@ -184,10 +184,13 @@ Jika pilihan konfigurasi tidak disediakan oleh OpenFire, maka admin dapat menamb
 ## Otomatisasi
 
 ## Cara Pemakaian
-1. Login pada halaman admin server OpenFire.
+##1. Login pada halaman admin server OpenFire.##
   * Kolom **Username** diisikan dengan **Admin**
   * Kolom **Password** diisikan dengan kata sandi yang telah dibuat pada proses instalasi.
 ![Screenshot from 2021-02-12 01-31-32](https://user-images.githubusercontent.com/60166539/110609354-b6c48080-81bf-11eb-97cd-d8ff37592375.png)
+
+##2. Create user pada OpenFire##
+  * Pilih bagian **Users/Groups**
 
 ### Referensi
 [How To Install OpenFire Chat on Ubuntu 20 19 18 LTS](https://www.youtube.com/watch?v=Ph0UWgKUruY)
