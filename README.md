@@ -201,6 +201,14 @@ Jika pilihan konfigurasi tidak disediakan oleh OpenFire, maka admin dapat menamb
     ![carapemakaian3](https://user-images.githubusercontent.com/60083962/111075161-46986080-8519-11eb-9460-ff03f1331dbb.PNG)
     ![carapemakaian4](https://user-images.githubusercontent.com/60083962/111075164-4ef09b80-8519-11eb-9c7a-e467f30ecfa0.PNG)
 
+#### 3. Login user pada aplikasi client Spark yang telah di install sebelumnya
+  * Masukkan username, password, domain
+    ![spark1FIX](https://user-images.githubusercontent.com/60083962/111076243-1b644000-851e-11eb-8dfe-c4e82bd5592b.PNG)
+  * Pada opsi **Advanced**, masukkan alamat domain Openfire, dan tinggalkan port nya default
+    ![spark2](https://user-images.githubusercontent.com/60083962/111076248-1f905d80-851e-11eb-8cbf-6d088970636a.PNG)
+  * Klik Login
+    ![spark3](https://user-images.githubusercontent.com/60083962/111076303-60887200-851e-11eb-915c-97d58f209d94.PNG)
+    
 ## Pembahasan
 
 ## Referensi
