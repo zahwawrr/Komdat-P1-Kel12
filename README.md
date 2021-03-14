@@ -4,8 +4,10 @@
 </p>
 
 <p align="center">
+  
 [Tentang](#Tentang) | [Instalasi](#Instalasi) | [Konfigurasi](#Konfigurasi) | [Maintenance](#Maintenance) | [Otomatisasi](#otomatisasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
 :---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:
+
 </p>
 
 ## Tentang
