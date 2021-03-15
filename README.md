@@ -35,6 +35,11 @@
   ```
   $ sudo apt  update
   ```
+  
+  Jika terdapat paket belum versi terbaru, lakukan upgrade paket
+  ```
+  $ sudo apt upgrade -y
+  ```
 * Install MySQL dan pastikan sudah terinstall
   ```
   $ sudo apt install mysql-server
@@ -252,6 +257,6 @@ Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
 
 2. [How to Install Spark IM 2.9.4 – Instant Messaging Client on Linux](https://linuxhint.com/spark-im-client-2-8-2-messaging-linux/)
 
-
+3. [Ignite Realtime: Openfire Server](http://www.igniterealtime.org/projects/openfire/)
 
 
