@@ -196,6 +196,7 @@ Beberapa pilihan konfigurasi yang disediakan oleh OpenFire adalah sebagai beriku
 Jika pilihan konfigurasi tidak disediakan oleh OpenFire, maka admin dapat menambahkan *plugin* sesuai dengan kebutuhan perusahaan. Contohnya **Monitoring Service** untuk mengetahui statistik dan arsip dari chat yang terjadi.
   ![Screenshot from 2021-03-14 11-35-03](https://user-images.githubusercontent.com/60166539/111063615-46c93980-84e2-11eb-990b-eef171bfa443.png)
   ![Screenshot from 2021-03-14 14-05-30](https://user-images.githubusercontent.com/60166539/111063617-4a5cc080-84e2-11eb-91f5-749c6fcd5334.png)
+  ![Screenshot (106)](https://user-images.githubusercontent.com/60083962/111340241-0a950500-86ab-11eb-9475-d44cd939eadf.png)
   ![Screenshot (110)](https://user-images.githubusercontent.com/60083962/111337364-9bb6ac80-86a8-11eb-9966-78e8a892b805.png)
   
 ## Maintenance
