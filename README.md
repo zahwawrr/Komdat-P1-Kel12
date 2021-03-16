@@ -228,14 +228,18 @@ Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
 
 #### 3. Login user pada aplikasi client Spark yang telah di install sebelumnya
   * Isi username, password dan domain sesuai dengan user yang telah dibuat sebelumnya di Openfire
+  
     ![spark1FIX (2)](https://user-images.githubusercontent.com/60083962/111338207-547ceb80-86a9-11eb-8b8f-8e613667298d.PNG)
   * Pada opsi **Advanced**, masukkan alamat domain Openfire, dan tinggalkan port nya default
+  
     ![spark2 (2)](https://user-images.githubusercontent.com/60083962/111338257-5e9eea00-86a9-11eb-90a3-ae945326df63.PNG)
   * Klik login dan login pun berhasil dilakukan
+  
     ![spark3 (2)](https://user-images.githubusercontent.com/60083962/111338268-6068ad80-86a9-11eb-94c1-234e2382e09b.PNG)
 
 #### 4. Komunikasi chat dengan client lain
   * Supaya antar client dapat berkomunikasi, kita perlu menambahkan kontak dari client lain yang dibuat di Openfire
+  
     ![spark_addcontact1 (2)](https://user-images.githubusercontent.com/60083962/111338460-89893e00-86a9-11eb-96ef-655106df2b7b.PNG)
   * Isi username Client lain. Disini saya akan menambahkan kontak client Ulfa, lalu pilih group nya dan terakhir klik Add
  
@@ -244,7 +248,11 @@ Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
   
     ![1_askask](https://user-images.githubusercontent.com/60083962/111331088-25fc1200-86a3-11eb-8c44-2baebb463ef6.PNG)
   * Setelah saling menerima permintaan pertemanan, kedua user akan memiliki kontak satu sama lain. Untuk memulai Chat, klik kanan pada nama kontak yang ingin diajak chat, lalu klik start Chat
-  * Lalu setelah keduanya memasuki room chat, chatting sudah dapat dilakukan.
+  * Kemudian chatting antar user client sudah dapat dilakukan.
+  
+    ![1_chatFIX](https://user-images.githubusercontent.com/60083962/111339168-21872780-86aa-11eb-836e-14432da654ee.PNG)
+
+  
     
 ## Pembahasan
 [`^ kembali ke atas ^`](#)
