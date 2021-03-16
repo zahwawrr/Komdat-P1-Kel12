@@ -173,7 +173,7 @@ Agar client dapat terhubung ke Openfire, maka dibutuhkan software client Spark u
   $ ./Spark
   ```
 * Instalasi selesai dan aplikasi dapat dijalankan, gunakan akun yang telah dibuat pada OpenFire untuk login
-  ![spark0](https://user-images.githubusercontent.com/60083962/111077352-02aa5900-8523-11eb-90d9-d9f8dad545fd.PNG)
+  ![spark0 (2)](https://user-images.githubusercontent.com/60083962/111308653-884a1800-868d-11eb-8e54-cac0da6454d6.PNG)
   
 ## Konfigurasi
 [`^ kembali ke atas ^`](#)
@@ -227,17 +227,17 @@ Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
 
 #### 3. Login user pada aplikasi client Spark yang telah di install sebelumnya
   * Isi username, password dan domain sesuai dengan user yang telah dibuat sebelumnya di Openfire
-    ![spark1FIX](https://user-images.githubusercontent.com/60083962/111076243-1b644000-851e-11eb-8dfe-c4e82bd5592b.PNG)
+    ![spark1FIX (2)](https://user-images.githubusercontent.com/60083962/111308785-b29bd580-868d-11eb-8039-a08401545ed3.PNG)
   * Pada opsi **Advanced**, masukkan alamat domain Openfire, dan tinggalkan port nya default
-    ![spark2](https://user-images.githubusercontent.com/60083962/111076248-1f905d80-851e-11eb-8cbf-6d088970636a.PNG)
+    ![spark2 (2)](https://user-images.githubusercontent.com/60083962/111308860-c810ff80-868d-11eb-9cf5-29a8ae2ef381.PNG)
   * Klik login dan login pun berhasil dilakukan
-    ![spark3](https://user-images.githubusercontent.com/60083962/111076303-60887200-851e-11eb-915c-97d58f209d94.PNG)
+    ![spark3 (2)](https://user-images.githubusercontent.com/60083962/111308880-ce9f7700-868d-11eb-82bf-92a83bdfbd57.PNG)
 
 #### 4. Komunikasi chat dengan client lain
   * Supaya antar client dapat berkomunikasi, kita perlu menambahkan kontak dari client lain yang dibuat di Openfire
-    ![spark_addcontact1](https://user-images.githubusercontent.com/60083962/111078228-0213c180-8527-11eb-85a8-fa46f71c59f6.PNG)
+    ![spark_addcontact1 (2)](https://user-images.githubusercontent.com/60083962/111309226-3bb30c80-868e-11eb-86a6-0b0271d81f59.PNG)
   * Isi username Client lain. Disini saya akan menambahkan kontak client zahwa, lalu pilih group nya dan terakhir klik Add
-    ![spark_addcontact2ZAHWA](https://user-images.githubusercontent.com/60083962/111078230-03dd8500-8527-11eb-8027-b636799b8949.PNG)
+    ![spark_addcontact2ZAHWA (2)](https://user-images.githubusercontent.com/60083962/111309238-3f469380-868e-11eb-945c-09a081b15251.PNG)
   * Setelah itu Client Zahwa akan mendapat notifikasi permintaan pertemanan oleh Hana seperi berikut. Jika Client Zahwa memilih accept, maka Client Hana juga akan menerima notifikasi permintaan pertemanan seperti Client Zahwa.
   * Setelah saling menerima permintaan pertemanan, kedua user akan memiliki kontak satu sama lain. Untuk memulai Chat, klik kanan pada nama kontak yang ingin diajak chat,lalu klik start Chat
   * Lalu setelah keduanya memasuki room chat, chatting sudah dapat dilakukan.
