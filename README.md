@@ -248,6 +248,8 @@ Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
   
     ![1_askask](https://user-images.githubusercontent.com/60083962/111331088-25fc1200-86a3-11eb-8c44-2baebb463ef6.PNG)
   * Setelah saling menerima permintaan pertemanan, kedua user akan memiliki kontak satu sama lain. Untuk memulai Chat, klik kanan pada nama kontak yang ingin diajak chat, lalu klik start Chat
+  
+    ![12231](https://user-images.githubusercontent.com/60083962/111339740-93f80780-86aa-11eb-9fe5-9f830323f969.PNG)
   * Kemudian chatting antar user client sudah dapat dilakukan.
   
     ![1_chatFIX](https://user-images.githubusercontent.com/60083962/111339168-21872780-86aa-11eb-836e-14432da654ee.PNG)
