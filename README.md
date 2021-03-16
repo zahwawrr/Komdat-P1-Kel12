@@ -267,6 +267,10 @@ Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
 
 
 #### 2. Perbandingan dengan aplikasi web lain yang sejenis
+  Perbandingan terhadap **ejabberd**:
+  * Openfire lebih fleksibel untuk kebutuhan *gateway* ke aplikasi *Instant Messaging* lainnya seperti Yahoo, MSN, AIM, dll.
+  * Openfire lebih mudah dalam segi instalasi dan pemeliharaan
+  * 
 
 ## Referensi
 [`^ kembali ke atas ^`](#)
