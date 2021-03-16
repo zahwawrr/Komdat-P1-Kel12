@@ -6,6 +6,14 @@
 [Sekilas Tentang](#Sekilas-Tentang) | [Instalasi](#Instalasi) | [Konfigurasi](#Konfigurasi) | [Maintenance](#Maintenance) | [Otomatisasi](#otomatisasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
 :---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:
 
+## Anggota
+| Nama              | NIM        |
+| -------------     | -----------|
+| Lathifah Kurnia K | G64180023  |
+| Ulfainil Aisyah   | G64180045  |
+| Hana Salsabila    | G64180051  |
+| Ulfainil Aisyah   | G64180045  |
+| Zahwa Wahyu Riana | G64180070  |
 ## Sekilas Tentang
 [`^ kembali ke atas ^`](#)
 
@@ -195,7 +203,7 @@ Beberapa pilihan konfigurasi yang disediakan oleh OpenFire adalah sebagai beriku
 **3. Plugin** <br/>
 Jika pilihan konfigurasi tidak disediakan oleh OpenFire, maka admin dapat menambahkan *plugin* sesuai dengan kebutuhan perusahaan. Contohnya **Monitoring Service** untuk mengetahui statistik dan arsip dari chat yang terjadi.
   ![Screenshot from 2021-03-14 11-35-03](https://user-images.githubusercontent.com/60166539/111063615-46c93980-84e2-11eb-990b-eef171bfa443.png)
-  ![Screenshot (106)](https://user-images.githubusercontent.com/60083962/111340241-0a950500-86ab-11eb-9475-d44cd939eadf.png)'
+  ![Screenshot (106)](https://user-images.githubusercontent.com/60083962/111340241-0a950500-86ab-11eb-9475-d44cd939eadf.png)
   
   Ketika server chat sudah digunakan, admin dapat melihat aktivitas yang terjadi pada server meliputi **pengguna dan percakapan yang sedang aktif**, **packets per minute**, **trafik server**, dan lain-lain.
   ![Screenshot (110)](https://user-images.githubusercontent.com/60083962/111337364-9bb6ac80-86a8-11eb-9966-78e8a892b805.png)
