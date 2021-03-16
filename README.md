@@ -227,6 +227,7 @@ Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
 
 #### 3. Login user pada aplikasi client Spark yang telah di install sebelumnya
   * Isi username, password dan domain sesuai dengan user yang telah dibuat sebelumnya di Openfire
+    
     ![spark1FIX (2)](https://user-images.githubusercontent.com/60083962/111308785-b29bd580-868d-11eb-8039-a08401545ed3.PNG)
   * Pada opsi **Advanced**, masukkan alamat domain Openfire, dan tinggalkan port nya default
     ![spark2 (2)](https://user-images.githubusercontent.com/60083962/111308860-c810ff80-868d-11eb-9cf5-29a8ae2ef381.PNG)
