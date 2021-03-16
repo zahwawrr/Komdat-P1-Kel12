@@ -12,7 +12,6 @@
 | Lathifah Kurnia K | G64180023  |
 | Ulfainil Aisyah   | G64180045  |
 | Hana Salsabila    | G64180051  |
-| Ulfainil Aisyah   | G64180045  |
 | Zahwa Wahyu Riana | G64180070  |
 ## Sekilas Tentang
 [`^ kembali ke atas ^`](#)
