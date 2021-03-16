@@ -132,7 +132,7 @@ OpenFire secara default berjalan pada port 9090, hubungkan server local dengan p
 * **Server siap digunakan**
 ![Screenshot from 2021-02-12 01-31-00](https://user-images.githubusercontent.com/60166539/111327823-4c6c7e00-86a0-11eb-94ba-a678f913a254.png)
 #### 7. Instalasi Spark
-![Spark](https://www.igniterealtime.org/fans/logo-spark.png)
+![Spark](https://opensourcesolution.com.br/wp-content/upload/2016/11/logo_spark.png)
 Agar client dapat terhubung ke Openfire, maka dibutuhkan software client Spark untuk di install pada sistem. **Spark** adalah aplikasi instant messaging client yang bersifat open-source. Spark juga dirilis oleh igniterealtime yang merupakan vendor dari OpenFire. Spark memiliki interface yang dapat mengelola oborolan secara real-time dalam contact window yang dapay diintegrasikan dengan OpenFire server. Spark yang diintegrasikan dengan OpenFire dapat menjadi alternatif untuk menggunakan jaringan public Instant Messaging yang tidak aman.
 * Pastikan pada sistem telah terinstall Java, jika belum install terlebih dahulu
   ```
