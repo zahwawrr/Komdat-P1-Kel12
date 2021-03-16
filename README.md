@@ -260,8 +260,8 @@ Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
     
 ## Pembahasan
 [`^ kembali ke atas ^`](#)
-#### 1. Pendapat tentang aplikasi OpenFire
-  * Kelebihan
+### 1. Pendapat tentang aplikasi OpenFire
+  * **Kelebihan**
     * Berbasis Java, bisa digunakan pada berbagai OS
     * Lebih stabil dan matang dalam pengembangan
     * Proses instalasi, konfigurasi, administrasi, manajemen dan penggunaan yang mudah
@@ -272,24 +272,23 @@ Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
     * Mendukung beberapa jenis Database
     * Mendukung komunikasi internal yang aman (grup komunikasi)
   
-  * Kekurangan
+  * **Kekurangan**
     * Server harus berada dalam semua jangkauan yang membutuhkan layanan
     * Database tidak bisa diubah setelah terinstal jika menggunakan embedded database dari OpenFire
     * Dibutuhkan reboot agar tidak terjadi crash
     * Tidak mendukung panggilan suara dan video
+    
+### 2. Perbandingan dengan aplikasi eJabberd
+  * **Kelebihan:**
+    * Openfire lebih fleksibel untuk kebutuhan *gateway* ke aplikasi *Instant Messaging* lainnya seperti Yahoo, MSN, AIM, dll.
+    * Openfire lebih mudah dalam segi instalasi dan pemeliharaan
+    * Openfire dibangun menggunakan bahasa Java, sedangkan eJabberd menggunakan bahasa Erlang yang belum familiar digunakan masyarakat.
+    * Openfire lebih didukung oleh database seperti SQL, dll.
 
-
-#### 2. Perbandingan dengan aplikasi eJabberd
-  **Kelebihan:**
-  * Openfire lebih fleksibel untuk kebutuhan *gateway* ke aplikasi *Instant Messaging* lainnya seperti Yahoo, MSN, AIM, dll.
-  * Openfire lebih mudah dalam segi instalasi dan pemeliharaan
-  * Openfire dibangun menggunakan bahasa Java, sedangkan eJabberd menggunakan bahasa Erlang yang belum familiar digunakan masyarakat.
-  * Openfire lebih didukung oleh database seperti SQL, dll.
-
-  **Kekurangan**
-  * Ejabberd sudah memiliki fitur clustering dan pengaturannya lebih mudah, sedangkan Openfire belum tersedia fitur *clustering*.
-  * Di sisi lain bahasa Erlang juga dapat mempermudah pemakaian karena tidak memerlukan database maupun web eksternal karena sudah termasuk ke dalam paket Erlang.
-  * Konfigurasi dapat dilakukan selagi proses berjalan, sehingga tidak diperlukan *temporary server shutdown*.
+  * **Kekurangan**
+    * Ejabberd sudah memiliki fitur clustering dan pengaturannya lebih mudah, sedangkan Openfire belum tersedia fitur *clustering*.
+    * Di sisi lain bahasa Erlang juga dapat mempermudah pemakaian karena tidak memerlukan database maupun web eksternal karena sudah termasuk ke dalam paket Erlang.
+    * Konfigurasi dapat dilakukan selagi proses berjalan, sehingga tidak diperlukan *temporary server shutdown*.
 
 ## Referensi
 [`^ kembali ke atas ^`](#)
