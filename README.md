@@ -105,26 +105,25 @@
 #### 6. Kunjungi alamat IP web server untuk langkah instalasi selanjutnya
 OpenFire secara default berjalan pada port 9090, hubungkan server local dengan port 9090 pada browser ```localhost:9090/setup/index.jsp```
 * **Pengaturan bahasa**
-![Screenshot from 2021-02-12 01-20-53](https://user-images.githubusercontent.com/60166539/110605431-b3c79100-81bb-11eb-86f7-27f8b80e615f.png)
+![Screenshot from 2021-02-12 01-20-53](https://user-images.githubusercontent.com/60166539/111327573-13340e00-86a0-11eb-8d18-0965264696a0.png)
 * **Pengaturan server** 
   * Server akan mengisi kolom persyaratan secara *default* sehingga kolom dapat dibiarkan seperti itu jika memang tidak ingin melakukan perubahan.
-![Screenshot from 2021-02-12 01-25-12](https://user-images.githubusercontent.com/60166539/110606812-25eca580-81bd-11eb-9e63-7d55308e01d0.png)
+![Screenshot from 2021-02-12 01-25-12](https://user-images.githubusercontent.com/60166539/111327606-1a5b1c00-86a0-11eb-805e-e18385cd953f.png)
 * **Pengaturan database**   
   * Kolom **Database Driver Presets** diisi dengan preset **MySQL**
   * Setelah preset mengisi kolom-kolom sebagai *default*, pada kolom **Database URL** ganti **HOSTNAME** dengan **localhost** dan **DATABASE NAME** dengan **openfiredb**.
   * Kolom **Username** dan **Password** diisi sesuai dengan database yang dibuat saat instalasi.
   * **Minimum Connections**, **Maximum Connections** dan **Connection Timeout** dapat dibiarkan *default* atau diatur sesuai dengan kebutuhan.
-![Screenshot from 2021-02-12 01-29-08](https://user-images.githubusercontent.com/60166539/110608117-7e707280-81be-11eb-99f7-2f8fc3b2d923.png)
+![Screenshot from 2021-02-12 01-29-11](https://user-images.githubusercontent.com/60166539/111327729-365ebd80-86a0-11eb-84f2-9369b251dc86.png)
 * **Pengaturan profile**
   * Pilih sistem ***user*** dan ***group*** sesuai dengan kebutuhan. Pada instalasi kali ini, dibiarkan *default*.
-![Screenshot from 2021-02-12 01-29-26](https://user-images.githubusercontent.com/60166539/110608343-bd062d00-81be-11eb-961c-488b6bf596be.png)
+![Screenshot from 2021-02-12 01-29-26](https://user-images.githubusercontent.com/60166539/111327768-3f4f8f00-86a0-11eb-90c3-b9823880c42a.png)
 * **Pengaturan akun admin**
   * Kolom **Admin Email Address** diisikan dengan email admin yang akan mempunyai kontrol terhadap server.
   * Kolom **New Password** dan **Confirm Password** diisi dengan kata sandi sesuai keinginan admin.
-![Screenshot from 2021-02-12 01-30-09](https://user-images.githubusercontent.com/60166539/110608784-238b4b00-81bf-11eb-8e57-acb7a9a8e504.png)
+![Screenshot from 2021-02-12 01-30-09](https://user-images.githubusercontent.com/60166539/111327797-45de0680-86a0-11eb-88b8-41fb41109624.png)
 * **Server siap digunakan**
-* ![Screenshot from 2021-02-12 01-31-00](https://user-images.githubusercontent.com/60166539/110609050-6a794080-81bf-11eb-9884-8c598ba4bc32.png)
-
+![Screenshot from 2021-02-12 01-31-00](https://user-images.githubusercontent.com/60166539/111327823-4c6c7e00-86a0-11eb-94ba-a678f913a254.png)
 #### 7. Instalasi Spark
 Agar client dapat terhubung ke Openfire, maka dibutuhkan software client Spark untuk di install pada sistem. 
 * Pastikan pada sistem telah terinstall Java, jika belum install terlebih dahulu
