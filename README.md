@@ -173,7 +173,8 @@ Agar client dapat terhubung ke Openfire, maka dibutuhkan software client Spark u
   $ ./Spark
   ```
 * Instalasi selesai dan aplikasi dapat dijalankan, gunakan akun yang telah dibuat pada OpenFire untuk login
-  ![spark0](https://user-images.githubusercontent.com/60083962/111077352-02aa5900-8523-11eb-90d9-d9f8dad545fd.PNG)
+
+  ![spark0 (2)](https://user-images.githubusercontent.com/60083962/111339966-c6a20000-86aa-11eb-8309-19a947ef511b.PNG)
   
 ## Konfigurasi
 [`^ kembali ke atas ^`](#)
