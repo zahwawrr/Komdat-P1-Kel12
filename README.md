@@ -279,11 +279,17 @@ Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
     * Tidak mendukung panggilan suara dan video
 
 
-#### 2. Perbandingan dengan aplikasi web lain yang sejenis
-  Perbandingan terhadap **ejabberd**:
+#### 2. Perbandingan dengan aplikasi eJabberd
+  **Kelebihan:**
   * Openfire lebih fleksibel untuk kebutuhan *gateway* ke aplikasi *Instant Messaging* lainnya seperti Yahoo, MSN, AIM, dll.
   * Openfire lebih mudah dalam segi instalasi dan pemeliharaan
-  * 
+  * Openfire dibangun menggunakan bahasa Java, sedangkan eJabberd menggunakan bahasa Erlang yang belum familiar digunakan masyarakat.
+  * Openfire lebih didukung oleh database seperti SQL, dll.
+
+  **Kekurangan**
+  * Ejabberd sudah memiliki fitur clustering dan pengaturannya lebih mudah, sedangkan Openfire belum tersedia fitur *clustering*.
+  * Di sisi lain bahasa Erlang juga dapat mempermudah pemakaian karena tidak memerlukan database maupun web eksternal karena sudah termasuk ke dalam paket Erlang.
+  * Konfigurasi dapat dilakukan selagi proses berjalan, sehingga tidak diperlukan *temporary server shutdown*.
 
 ## Referensi
 [`^ kembali ke atas ^`](#)
@@ -296,4 +302,6 @@ Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
 
 4. [Openfire Reviews & Product Details](https://www.g2.com/products/openfire/reviews#survey-response-4587040)
 
+5. [Openfire vs eJabberd](https://discourse.igniterealtime.org/t/openfire-vs-ejabberd/48904/7)
 
+6. [XMPP server : ejabberd vs openfire vs prosody](https://stackoverflow.com/questions/33596842/xmpp-server-ejabberd-vs-openfire-vs-prosody)
