@@ -22,6 +22,7 @@
 - Windows, Linux, Solaris, Unix atau MacOS
 - MySQL (5.x+)
 - Apache Web Server (1.3+)
+- Spark Client (Optional)
 
 **Hardware**
 - 1-500 pengguna: minimal 384MB RAM dan prosesor 1.5GHz
@@ -173,7 +174,7 @@ Agar client dapat terhubung ke Openfire, maka dibutuhkan software client Spark u
   $ ./Spark
   ```
 * Instalasi selesai dan aplikasi dapat dijalankan, gunakan akun yang telah dibuat pada OpenFire untuk login
-  ![spark0 (2)](https://user-images.githubusercontent.com/60083962/111308653-884a1800-868d-11eb-8e54-cac0da6454d6.PNG)
+  ![spark0](https://user-images.githubusercontent.com/60083962/111077352-02aa5900-8523-11eb-90d9-d9f8dad545fd.PNG)
   
 ## Konfigurasi
 [`^ kembali ke atas ^`](#)
@@ -216,40 +217,54 @@ Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
 #### 1. Login pada halaman admin server OpenFire.
   * Kolom **Username** diisikan dengan **Admin**
   * Kolom **Password** diisikan dengan kata sandi yang telah dibuat pada proses instalasi.
-    ![Screenshot (94)](https://user-images.githubusercontent.com/60083962/111254526-dd633b00-8647-11eb-97bc-c3b45027bf02.png)
+![Screenshot from 2021-02-12 01-31-32](https://user-images.githubusercontent.com/60166539/110609354-b6c48080-81bf-11eb-97cd-d8ff37592375.png)
 
 #### 2. Create user pada OpenFire 
   * Pilih bagian **Users/Groups**, lalu klik **Create New User**
-    ![Screenshot (95)](https://user-images.githubusercontent.com/60083962/111255752-40ee6800-864a-11eb-8bf1-844111283ff8.png)
+    ![cara pemakaian 1](https://user-images.githubusercontent.com/60083962/111075022-8b6fc780-8518-11eb-9abf-f5b6c6108526.PNG)
   * Kita dapat menambahkan lebih dari 1 user sesuai dengan kebutuhan
-    ![Screenshot (96)](https://user-images.githubusercontent.com/60083962/111255674-18666e00-864a-11eb-8f17-9974d50b74e5.png)
-    ![Screenshot (98)](https://user-images.githubusercontent.com/60083962/111255831-63808100-864a-11eb-945b-91466adc6f64.png)
+    ![carapemakaian3](https://user-images.githubusercontent.com/60083962/111075161-46986080-8519-11eb-9460-ff03f1331dbb.PNG)
+    ![carapemakaian4](https://user-images.githubusercontent.com/60083962/111075164-4ef09b80-8519-11eb-9c7a-e467f30ecfa0.PNG)
 
 #### 3. Login user pada aplikasi client Spark yang telah di install sebelumnya
   * Isi username, password dan domain sesuai dengan user yang telah dibuat sebelumnya di Openfire
-    
-    ![spark1FIX (2)](https://user-images.githubusercontent.com/60083962/111308785-b29bd580-868d-11eb-8039-a08401545ed3.PNG)
+    ![spark1FIX](https://user-images.githubusercontent.com/60083962/111076243-1b644000-851e-11eb-8dfe-c4e82bd5592b.PNG)
   * Pada opsi **Advanced**, masukkan alamat domain Openfire, dan tinggalkan port nya default
-    ![spark2 (2)](https://user-images.githubusercontent.com/60083962/111308860-c810ff80-868d-11eb-9cf5-29a8ae2ef381.PNG)
+    ![spark2](https://user-images.githubusercontent.com/60083962/111076248-1f905d80-851e-11eb-8cbf-6d088970636a.PNG)
   * Klik login dan login pun berhasil dilakukan
-    ![spark3 (2)](https://user-images.githubusercontent.com/60083962/111308880-ce9f7700-868d-11eb-82bf-92a83bdfbd57.PNG)
+    ![spark3](https://user-images.githubusercontent.com/60083962/111076303-60887200-851e-11eb-915c-97d58f209d94.PNG)
 
 #### 4. Komunikasi chat dengan client lain
   * Supaya antar client dapat berkomunikasi, kita perlu menambahkan kontak dari client lain yang dibuat di Openfire
-    ![spark_addcontact1 (2)](https://user-images.githubusercontent.com/60083962/111309226-3bb30c80-868e-11eb-86a6-0b0271d81f59.PNG)
+    ![spark_addcontact1](https://user-images.githubusercontent.com/60083962/111078228-0213c180-8527-11eb-85a8-fa46f71c59f6.PNG)
   * Isi username Client lain. Disini saya akan menambahkan kontak client zahwa, lalu pilih group nya dan terakhir klik Add
-    ![spark_addcontact2ZAHWA (2)](https://user-images.githubusercontent.com/60083962/111309238-3f469380-868e-11eb-945c-09a081b15251.PNG)
+    ![spark_addcontact2ZAHWA](https://user-images.githubusercontent.com/60083962/111078230-03dd8500-8527-11eb-8027-b636799b8949.PNG)
   * Setelah itu Client Zahwa akan mendapat notifikasi permintaan pertemanan oleh Hana seperi berikut. Jika Client Zahwa memilih accept, maka Client Hana juga akan menerima notifikasi permintaan pertemanan seperti Client Zahwa.
   * Setelah saling menerima permintaan pertemanan, kedua user akan memiliki kontak satu sama lain. Untuk memulai Chat, klik kanan pada nama kontak yang ingin diajak chat,lalu klik start Chat
   * Lalu setelah keduanya memasuki room chat, chatting sudah dapat dilakukan.
     
 ## Pembahasan
 [`^ kembali ke atas ^`](#)
+#### 1. Pendapat tentang aplikasi OpenFire
+  * Kelebihan
+    * Berbasis Java, bisa digunakan pada berbagai OS
+    * Lebih stabil dan matang dalam pengembangan
+    * Proses instalasi, konfigurasi, administrasi, manajemen dan penggunaan yang mudah
+    * Gratis, opensource dan tersedia banyak plugin untuk pengembangan fitur
+    * Cukup satu server dengan dengan spesifikasi sesuai kebutuhan jumlah client
+    * Banyak tersedia aplikasi client karena menggunakan protokol standar
+    * Mendukung client/user berskala besar
+    * Mendukung beberapa jenis Database
+    * Mendukung komunikasi internal yang aman (grup komunikasi)
+  
+  * Kekurangan
+    * Server harus berada dalam semua jangkauan yang membutuhkan layanan
+    * Database tidak bisa diubah setelah terinstal jika menggunakan embedded database dari OpenFire
+    * Dibutuhkan reboot agar tidak terjadi crash
+    * Tidak mendukung panggilan suara dan video
 
-  * Pendapat anda tentang aplikasi web ini
-    * kelebihan
-    * kekurangan
-  * Bandingkan dengan aplikasi web lain yang sejenis
+
+#### 2. Perbandingan dengan aplikasi web lain yang sejenis
 
 ## Referensi
 [`^ kembali ke atas ^`](#)
@@ -259,5 +274,7 @@ Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
 2. [How to Install Spark IM 2.9.4 – Instant Messaging Client on Linux](https://linuxhint.com/spark-im-client-2-8-2-messaging-linux/)
 
 3. [Ignite Realtime: Openfire Server](http://www.igniterealtime.org/projects/openfire/)
+
+4. [Openfire Reviews & Product Details](https://www.g2.com/products/openfire/reviews#survey-response-4587040)
 
 
