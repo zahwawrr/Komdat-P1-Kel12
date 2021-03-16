@@ -195,6 +195,7 @@ Beberapa pilihan konfigurasi yang disediakan oleh OpenFire adalah sebagai beriku
 Jika pilihan konfigurasi tidak disediakan oleh OpenFire, maka admin dapat menambahkan *plugin* sesuai dengan kebutuhan perusahaan. Contohnya **Monitoring Service** untuk mengetahui statistik dan arsip dari chat yang terjadi.
   ![Screenshot from 2021-03-14 11-35-03](https://user-images.githubusercontent.com/60166539/111063615-46c93980-84e2-11eb-990b-eef171bfa443.png)
   ![Screenshot from 2021-03-14 14-05-30](https://user-images.githubusercontent.com/60166539/111063617-4a5cc080-84e2-11eb-91f5-749c6fcd5334.png)
+  ![Screenshot (110)](https://user-images.githubusercontent.com/60083962/111337364-9bb6ac80-86a8-11eb-9966-78e8a892b805.png)
   
 ## Maintenance
 [`^ kembali ke atas ^`](#)
@@ -227,15 +228,15 @@ Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
 
 #### 3. Login user pada aplikasi client Spark yang telah di install sebelumnya
   * Isi username, password dan domain sesuai dengan user yang telah dibuat sebelumnya di Openfire
-    ![spark1FIX](https://user-images.githubusercontent.com/60083962/111076243-1b644000-851e-11eb-8dfe-c4e82bd5592b.PNG)
+    ![spark1FIX (2)](https://user-images.githubusercontent.com/60083962/111338207-547ceb80-86a9-11eb-8b8f-8e613667298d.PNG)
   * Pada opsi **Advanced**, masukkan alamat domain Openfire, dan tinggalkan port nya default
-    ![spark2](https://user-images.githubusercontent.com/60083962/111076248-1f905d80-851e-11eb-8cbf-6d088970636a.PNG)
+    ![spark2 (2)](https://user-images.githubusercontent.com/60083962/111338257-5e9eea00-86a9-11eb-90a3-ae945326df63.PNG)
   * Klik login dan login pun berhasil dilakukan
-    ![spark3](https://user-images.githubusercontent.com/60083962/111076303-60887200-851e-11eb-915c-97d58f209d94.PNG)
+    ![spark3 (2)](https://user-images.githubusercontent.com/60083962/111338268-6068ad80-86a9-11eb-94c1-234e2382e09b.PNG)
 
 #### 4. Komunikasi chat dengan client lain
   * Supaya antar client dapat berkomunikasi, kita perlu menambahkan kontak dari client lain yang dibuat di Openfire
-    ![spark_addcontact1](https://user-images.githubusercontent.com/60083962/111078228-0213c180-8527-11eb-85a8-fa46f71c59f6.PNG)
+    ![spark_addcontact1 (2)](https://user-images.githubusercontent.com/60083962/111338460-89893e00-86a9-11eb-96ef-655106df2b7b.PNG)
   * Isi username Client lain. Disini saya akan menambahkan kontak client Ulfa, lalu pilih group nya dan terakhir klik Add
  
     ![1_ulfa](https://user-images.githubusercontent.com/60083962/111328772-1ed40480-86a1-11eb-955e-3e660d04b5fc.PNG)
