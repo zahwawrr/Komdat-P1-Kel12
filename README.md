@@ -216,14 +216,14 @@ Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
 #### 1. Login pada halaman admin server OpenFire.
   * Kolom **Username** diisikan dengan **Admin**
   * Kolom **Password** diisikan dengan kata sandi yang telah dibuat pada proses instalasi.
-![Screenshot (94)](https://user-images.githubusercontent.com/60083962/111254526-dd633b00-8647-11eb-97bc-c3b45027bf02.png)
+    ![Screenshot (94)](https://user-images.githubusercontent.com/60083962/111254526-dd633b00-8647-11eb-97bc-c3b45027bf02.png)
 
 #### 2. Create user pada OpenFire 
   * Pilih bagian **Users/Groups**, lalu klik **Create New User**
-    ![cara pemakaian 1](https://user-images.githubusercontent.com/60083962/111075022-8b6fc780-8518-11eb-9abf-f5b6c6108526.PNG)
+    ![Screenshot (95)](https://user-images.githubusercontent.com/60083962/111255752-40ee6800-864a-11eb-8bf1-844111283ff8.png)
   * Kita dapat menambahkan lebih dari 1 user sesuai dengan kebutuhan
-    ![carapemakaian3](https://user-images.githubusercontent.com/60083962/111075161-46986080-8519-11eb-9460-ff03f1331dbb.PNG)
-    ![carapemakaian4](https://user-images.githubusercontent.com/60083962/111075164-4ef09b80-8519-11eb-9c7a-e467f30ecfa0.PNG)
+    ![Screenshot (96)](https://user-images.githubusercontent.com/60083962/111255674-18666e00-864a-11eb-8f17-9974d50b74e5.png)
+    ![Screenshot (98)](https://user-images.githubusercontent.com/60083962/111255831-63808100-864a-11eb-945b-91466adc6f64.png)
 
 #### 3. Login user pada aplikasi client Spark yang telah di install sebelumnya
   * Isi username, password dan domain sesuai dengan user yang telah dibuat sebelumnya di Openfire
