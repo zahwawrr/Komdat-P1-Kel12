@@ -92,7 +92,7 @@
 #### 4. Import skema database OpenFire
 * Login ke MySQL server menggunakan ```openfireuser``` sebagai user-nya
   ```
-  $ sudo mysql -uopenfireuser -popenfirePWD
+  $ sudo mysql -uopenfireuser -pOpenFirePWD
   ```
 * Pindah ke database ```openfiredb``` yang telah dibuat sebelumnya, kemudian import skema database OpenFire. Setelah itu verifikasi bahwa skema telah ter-*import*
   ```
