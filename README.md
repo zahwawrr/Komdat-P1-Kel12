@@ -16,7 +16,7 @@
 ## Sekilas Tentang
 [`^ kembali ke atas ^`](#)
 
-**Openfire** merupakan sebuah server *Real Time Collaboration* (RTC) yang berlisensi Open Source Apache. Aplikasi ini bersifat *open protocol* (dapat digunakan semua orang secara gratis dan bebas) untuk mengirimkan pesan instan. Aplikasi berjenis *Extensible Messaging and Presence Protocol* (XMPP) ini sangat mudah untuk di-*install* dan digunakan, namun dapat memberikan layanan keamanan dan performa yang baik.
+**Openfire** merupakan sebuah server *Real Time Collaboration* (RTC) yang berlisensi Open Source Apache. Aplikasi ini bersifat *open protocol* (dapat digunakan semua orang secara gratis dan bebas) untuk mengirimkan pesan instan. Aplikasi berjenis *Extensible Messaging and Presence Protocol* (XMPP) ini sangat mudah untuk di-*install* dan digunakan, namun dapat memberikan layanan keamanan dan performa yang baik. Openfire biasanya digunakan pada skala enterprise untuk komunikasi internal.
 
 ## Instalasi
 [`^ kembali ke atas ^`](#)
@@ -158,7 +158,7 @@ OpenFire secara default berjalan pada port 9090, hubungkan server local dengan p
 #### 7. Instalasi Spark
 ![Spark](https://opensourcesolution.com.br/wp-content/upload/2016/11/logo_spark.png)
 
-Agar client dapat terhubung ke Openfire, maka dibutuhkan software client Spark untuk di install pada sistem. **Spark** adalah aplikasi instant messaging client yang bersifat open-source. Spark juga dirilis oleh igniterealtime yang merupakan vendor dari OpenFire. Spark memiliki interface yang dapat mengelola oborolan secara real-time dalam contact window yang dapay diintegrasikan dengan OpenFire server. Spark yang diintegrasikan dengan OpenFire dapat menjadi alternatif untuk menggunakan jaringan public Instant Messaging yang tidak aman.
+Agar client dapat terhubung ke Openfire, maka dibutuhkan software client Spark untuk di install pada sistem. **Spark** adalah aplikasi instant messaging client yang bersifat open-source. Spark juga dirilis oleh igniterealtime yang merupakan vendor dari OpenFire. Spark memiliki interface yang dapat mengelola obrolan secara real-time dalam contact window yang dapay diintegrasikan dengan OpenFire server. Spark yang diintegrasikan dengan OpenFire dapat menjadi alternatif untuk menggunakan jaringan public Instant Messaging yang tidak aman.
 * Pastikan pada sistem telah terinstall Java, jika belum install terlebih dahulu
   ```
   $ sudo apt install default-jre
