@@ -299,7 +299,7 @@ Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
     * Lebih stabil dan matang dalam pengembangan
     * Proses instalasi, konfigurasi, administrasi, manajemen dan penggunaan yang mudah
     * Gratis, opensource dan tersedia banyak plugin untuk pengembangan fitur
-    * Cukup satu server dengan dengan spesifikasi sesuai kebutuhan jumlah client
+    * Cukup satu server dengan spesifikasi sesuai kebutuhan jumlah client
     * Banyak tersedia aplikasi client karena menggunakan protokol standar
     * Mendukung client/user berskala besar
     * Mendukung beberapa jenis Database
