@@ -37,14 +37,38 @@
 - 10.001-25.000 pengguna: minimal 1.5 GB dan dua prosesor 3 GHz, dan satu modul *connection manager* pada mesin yang sama.
 - 25.0001-100.000 pengguna: minimal 2.0Gb RAM, dua prosesor 3 GHz, dan antara 1-4 modul *connection managers* dengan ukuran yang sesuai di setiap mesin.
 
+### Setting Port Forwarding di VM
+Sebelum mengakses VM dari Host, harus dilakukan *port forwarding* terlebih dahulu.
+* Pada VirtualBox, pilih pengaturan *Settings* -> *Network* -> *Advanced* -> *Port Forwarding*
+* Tambahkan tiga rule *port forwarding*, yaitu ```http```, ```ssh``` dan ```Openfire``` (untuk aplikasi)
+![port](https://user-images.githubusercontent.com/60166539/111415215-0c46e300-8714-11eb-9bb8-f08b6288819c.png)
+* Klik *OK*, kemudian lanjutkan pengaturan dengan menjalankan VM Ubuntu
+* Buka terminal pada VM, lalu pastikan seluruh paket sistem adalah versi yang terbaru
+  ```
+  $ sudo apt update
+  ```
+* Install server OpenSSH
+  ```
+  $ sudo apt-get install openssh-server
+  ```
+* Aktifkan OpenSSH dan pastikan sudah aktif
+   ```
+   $ sudo systemctl enable ssh
+   $ sudo systemctl start ssh
+   $ sudo systemctl status ssh
+   ```
+  
 ### Proses Instalasi:
 #### 1. Instalasi Kebutuhan Sistem
+* Pada *Command Prompt* Host, akses VM dengan *username* dan *password* VM
+  ```
+  $ ssh username@localhost -p 2200
+  ```
 * Pastikan seluruh paket sistem adalah versi yang terbaru
   ```
-  $ sudo apt  update
+  $ sudo apt update
   ```
-  
-  Jika terdapat paket belum versi terbaru, lakukan upgrade paket
+* Jika terdapat paket yang bukan merupakan versi terbarunya, lakukan upgrade paket
   ```
   $ sudo apt upgrade -y
   ```
